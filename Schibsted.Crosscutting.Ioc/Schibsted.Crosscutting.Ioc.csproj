@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="Builders\AccesorsBuilder.cs" />
     <Compile Include="Builders\BusinessBuilder.cs" />
+    <Compile Include="Builders\SecurityBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +96,10 @@
     <ProjectReference Include="..\Schibsted.Infrastructure.Repositories\Schibsted.Infrastructure.Repositories.csproj">
       <Project>{880b6dd5-be45-4583-ae78-659c2fdd228f}</Project>
       <Name>Schibsted.Infrastructure.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Schibsted.Infrastructure.Security\Schibsted.Infrastructure.Security.csproj">
+      <Project>{81ac05c6-c0dd-422c-a860-1e8594b61ba7}</Project>
+      <Name>Schibsted.Infrastructure.Security</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

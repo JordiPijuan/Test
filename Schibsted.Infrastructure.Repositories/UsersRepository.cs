@@ -7,6 +7,7 @@ namespace Schibsted.Infrastructure.Repositories
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Linq.Expressions;
     using Schibsted.Crosscutting.Commons;
     using Schibsted.Crosscutting.Commons.Managers;
     using Schibsted.Crosscutting.Entities;
@@ -27,15 +28,16 @@ namespace Schibsted.Infrastructure.Repositories
             return UserList;
         }
 
-        public IEnumerable<User> GetByFilter(Func<User, bool> filter)
+        public IEnumerable<User> GetByFilter(Expression<Func<User, bool>> filter = null)
         {
-            throw new NotImplementedException();
+            return UserList.AsQueryable().Where(filter);
         }
 
         public User GetById(object id)
         {
             return UserList.SingleOrDefault(u => u.Name == (string)id);
         }
+
 
     }
 

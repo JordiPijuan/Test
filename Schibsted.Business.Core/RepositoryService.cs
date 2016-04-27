@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Schibsted.Business.Contracts;
@@ -36,6 +37,13 @@ namespace Schibsted.Business.Core
         public User GetByName(string name)
         {
             return _userRepository.GetById(name);
+        }
+
+        public bool Authenticate(string username, string password)
+        {
+            Expression<Func<User, bool>> filter = u => u.Name == username && u.Password == password;
+             
+            return _userRepository.GetByFilter(filter).Any();
         }
 
     }

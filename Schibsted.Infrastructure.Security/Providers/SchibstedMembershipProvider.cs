@@ -1,25 +1,24 @@
-﻿namespace Schibsted.Infrastructure.Security
+﻿namespace Schibsted.Infrastructure.Security.Providers
 {
     using System;
     using Schibsted.Infrastructure.Security.Contracts;
     using Schibsted.Infrastructure.Repositories;
-
+    using Services;
     public class SchibstedMembershipProvider : IAuthenticate, IAuthorizate, IDisposable
     {
 
-        private readonly UsersRepository _usersService;
-        private readonly RolesRepository _rolesService;
+        private readonly AuthorizationService _authorizateService;
 
         public SchibstedMembershipProvider() 
             : base()
         {
-            _usersService = Activator.CreateInstance<UsersRepository>();
-            _rolesService = Activator.CreateInstance<RolesRepository>();
+            _authorizateService = Activator.CreateInstance<AuthorizationService>();
+            //_rolesService = Activator.CreateInstance<RolesRepository>();
         }
 
         public bool Authenticate(string username, string password)
         {
-            throw new NotImplementedException();
+            return _authorizateService.Authenticate(username, password);
         }
 
         public ISchibstedIdentity Authorize(string username)

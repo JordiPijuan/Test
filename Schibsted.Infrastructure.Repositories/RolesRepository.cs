@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using Crosscutting.Entities;
     using Contracts;
+    using System.Linq.Expressions;
 
     public class RolesRepository : IRolesRepository<Role>
     {
@@ -24,14 +25,15 @@
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Role> GetByFilter(Func<Role, bool> filter)
+        public IEnumerable<Role> GetByFilter(Expression<Func<Role, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
-
         public Role GetById(object id)
         {
             throw new NotImplementedException();
         }
+
     }
+
 }

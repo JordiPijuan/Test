@@ -179,6 +179,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Attributes\SchibstedAuthorize.cs" />
     <Compile Include="Controllers\WebAPI\ApiAccountController.cs" />
     <Compile Include="Enums\UserAction.cs" />
     <Compile Include="Filters\AuthenticationFilter.cs" />
@@ -269,6 +270,10 @@
     <ProjectReference Include="..\Schibsted.Crosscutting.Ioc\Schibsted.Crosscutting.Ioc.csproj">
       <Project>{93d41393-01ec-4c5b-8929-cd786e7d6876}</Project>
       <Name>Schibsted.Crosscutting.Ioc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Schibsted.Infrastructure.Security\Schibsted.Infrastructure.Security.csproj">
+      <Project>{81ac05c6-c0dd-422c-a860-1e8594b61ba7}</Project>
+      <Name>Schibsted.Infrastructure.Security</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

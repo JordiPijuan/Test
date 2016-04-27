@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Infrastructure.Security
+﻿namespace Schibsted.Infrastructure.Security.Providers
 {
     using System;
     using System.Collections.Generic;
@@ -29,6 +29,19 @@
 
             return Roles.ToArray();
         }
+
+        private void SetRoles(string username)
+        {
+            if (Roles == null)
+            {
+                Roles = _provider
+                    .Authorize(username)
+                    .Roles
+                    .ToArray();
+            }
+        }
+
+        #region · Not Implemented
 
         public override string[] GetUsersInRole(string roleName)
         {
@@ -75,16 +88,7 @@
             throw new NotImplementedException();
         }
 
-        private void SetRoles(string username)
-        {
-            if (Roles == null)
-            {
-                Roles = _provider
-                    .Authorize(username)
-                    .Roles
-                    .ToArray();
-            }
-        }
+        #endregion Not Implemented
 
     }
 

@@ -9,6 +9,8 @@
         void Initialize(string filepath);
         List<User> GetAllUsers();
         User GetByName(string name);
+        bool Authenticate(string username, string password);
+
     }
 
 }

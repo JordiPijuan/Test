@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,6 @@ namespace Schibsted.Infrastructure.Contracts
     {
         T GetById(object id);
         IEnumerable<T> GetAll();
-        IEnumerable<T> GetByFilter(Func<T, bool> filter);
+        IEnumerable<T> GetByFilter(Expression<Func<T, bool>> filter = null);
     }
 }
