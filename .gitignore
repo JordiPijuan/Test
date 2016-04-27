@@ -10,3 +10,17 @@
 /Schibsted.Crosscutting.Commons/obj/Debug
 /Schibsted.Business.Core/obj/Debug
 /Schibsted.Business.Contracts/obj/Debug
+/packages
+/Schibsted.Business.Contracts/bin/Debug
+/Schibsted.Business.Core/bin/Debug
+/Schibsted.Crosscutting.Commons/bin/Debug
+/Schibsted.Crosscutting.Entities/bin/Debug
+/Schibsted.Crosscutting.Ioc/bin/Debug
+/Schibsted.Infrastructure.Contracts/bin/Debug
+/Schibsted.Infrastructure.Contracts/obj/Debug
+/Schibsted.Infrastructure.Repositories/bin/Debug
+/Schibsted.Infrastructure.Repositories/obj/Debug
+/Schibsted.Infrastructure.Security/bin/Debug
+/Schibsted.Infrastructure.Security/obj/Debug
+/Schibsted.Presentation.Mvc.UI/bin
+/Schibsted.Presentation.Mvc.UI/obj/Debug
