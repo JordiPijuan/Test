@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Schibsted.Business.Contracts;
-using Schibsted.Crosscutting.Commons.Enums;
-using Schibsted.Crosscutting.Entities;
+using Schibsted.Infrastructure.Commons.Enums;
+using Schibsted.Infrastructure.Entities;
 using Schibsted.Presentation.Mvc.UI.Enums;
 using Schibsted.Presentation.Mvc.UI.Localization;
 

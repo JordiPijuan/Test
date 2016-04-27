@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Crosscutting.Commons.Enums
+﻿namespace Schibsted.Infrastructure.Commons.Enums
 {
 
     public enum SchibstedRole

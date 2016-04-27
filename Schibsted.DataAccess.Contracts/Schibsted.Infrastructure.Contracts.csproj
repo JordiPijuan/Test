@@ -7,8 +7,8 @@
     <ProjectGuid>{F8F7267A-D268-4ACB-9890-D0BD4F53E227}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Schibsted.DataAccess.Contracts</RootNamespace>
-    <AssemblyName>Schibsted.DataAccess.Contracts</AssemblyName>
+    <RootNamespace>Schibsted.Infrastructure.Contracts</RootNamespace>
+    <AssemblyName>Schibsted.Infrastructure.Contracts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

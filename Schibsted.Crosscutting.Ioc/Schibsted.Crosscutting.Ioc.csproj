@@ -88,13 +88,13 @@
       <Project>{C48392A5-4BA0-4159-8BEB-1FD5399285AE}</Project>
       <Name>Schibsted.Crosscutting.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Schibsted.DataAccess.Contracts\Schibsted.DataAccess.Contracts.csproj">
+    <ProjectReference Include="..\Schibsted.DataAccess.Contracts\Schibsted.Infrastructure.Contracts.csproj">
       <Project>{f8f7267a-d268-4acb-9890-d0bd4f53e227}</Project>
-      <Name>Schibsted.DataAccess.Contracts</Name>
+      <Name>Schibsted.Infrastructure.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Schibsted.DataAccess.Repositories\Schibsted.DataAccess.Repositories.csproj">
+    <ProjectReference Include="..\Schibsted.DataAccess.Repositories\Schibsted.Infrastructure.Repositories.csproj">
       <Project>{880b6dd5-be45-4583-ae78-659c2fdd228f}</Project>
-      <Name>Schibsted.DataAccess.Repositories</Name>
+      <Name>Schibsted.Infrastructure.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

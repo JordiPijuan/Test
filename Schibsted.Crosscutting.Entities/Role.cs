@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Schibsted.Crosscutting.Entities
+namespace Schibsted.Infrastructure.Entities
 {
 
     public class Role

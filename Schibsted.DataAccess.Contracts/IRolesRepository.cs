@@ -1,4 +1,4 @@
-﻿namespace Schibsted.DataAccess.Contracts
+﻿namespace Schibsted.Infrastructure.Contracts
 {
     public interface IRolesRepository<T> : IReaderRepository<T> where T: class
     {

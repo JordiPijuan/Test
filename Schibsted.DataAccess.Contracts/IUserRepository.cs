@@ -1,4 +1,4 @@
-﻿namespace Schibsted.DataAccess.Contracts
+﻿namespace Schibsted.Infrastructure.Contracts
 {
 
     public interface IUserRepository<T> where T: class

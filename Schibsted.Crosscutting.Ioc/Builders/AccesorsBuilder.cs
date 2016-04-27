@@ -1,9 +1,9 @@
-﻿namespace Schibsted.Crosscutting.Ioc.Builders
+﻿namespace Schibsted.Infrastructure.Ioc.Builders
 {
     using Microsoft.Practices.Unity;
-    using Schibsted.Crosscutting.Entities;
-    using Schibsted.DataAccess.Contracts;
-    using Schibsted.DataAccess.Repositories;
+    using Schibsted.Infrastructure.Entities;
+    using Schibsted.Infrastructure.Contracts;
+    using Schibsted.Infrastructure.Repositories;
 
     public class AccesorsBuilder
     {

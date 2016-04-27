@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Crosscutting.Commons.Managers
+﻿namespace Schibsted.Infrastructure.Commons.Managers
 {
     using System.Web;
 

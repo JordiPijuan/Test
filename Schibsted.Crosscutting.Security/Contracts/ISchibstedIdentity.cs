@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Crosscutting.Security.Contracts
+﻿namespace Schibsted.Infrastructure.Security.Contracts
 {
     using System.Collections.Generic;
 

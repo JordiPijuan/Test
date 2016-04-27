@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Crosscutting.Security
+﻿namespace Schibsted.Infrastructure.Security
 {
     using System;
     using System.Collections.Generic;

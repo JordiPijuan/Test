@@ -25,3 +25,4 @@
 /Schibsted.Presentation.Mvc.UI/bin
 /Schibsted.Presentation.Mvc.UI/obj/Debug
 *.user
+/packages

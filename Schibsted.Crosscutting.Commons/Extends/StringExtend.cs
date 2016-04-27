@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Crosscutting.Commons.Extends
+﻿namespace Schibsted.Infrastructure.Commons.Extends
 {
     using System;
     using System.Text;

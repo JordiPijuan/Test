@@ -1,31 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Configuration.Provider;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Security;
-using Schibsted.Business.Contracts;
-using Schibsted.Business.Core;
-using Schibsted.Crosscutting.Entities;
-using Schibsted.Crosscutting.Security.Contracts;
-using Schibsted.DataAccess.Contracts;
-using Schibsted.DataAccess.Repositories;
-
-namespace Schibsted.Crosscutting.Security
+﻿namespace Schibsted.Infrastructure.Security
 {
+    using System;
+    using Schibsted.Infrastructure.Security.Contracts;
+    using Schibsted.Infrastructure.Repositories;
 
     public class SchibstedMembershipProvider : IAuthenticate, IAuthorizate, IDisposable
     {
 
-        private readonly UserRepository _usersService;
+        private readonly UsersRepository _usersService;
         private readonly RolesRepository _rolesService;
 
         public SchibstedMembershipProvider() 
             : base()
         {
-            _usersService = Activator.CreateInstance<UserRepository>();
+            _usersService = Activator.CreateInstance<UsersRepository>();
             _rolesService = Activator.CreateInstance<RolesRepository>();
         }
 

@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Security;
 using Schibsted.Business.Contracts;
-using Schibsted.Crosscutting.Entities;
+using Schibsted.Infrastructure.Entities;
 using Schibsted.Presentation.Mvc.UI.Filters;
 using Schibsted.Presentation.Mvc.UI.Localization;
 

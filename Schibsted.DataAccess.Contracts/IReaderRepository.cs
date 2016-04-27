@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Schibsted.DataAccess.Contracts
+namespace Schibsted.Infrastructure.Contracts
 {
     public interface IReaderRepository<T> where T: class
     {
