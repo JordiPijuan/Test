@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Infrastructure", "01. I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. BusinessLayer", "02. BusinessLayer", "{B3E10D7B-2DE3-4F5C-875B-46619411A502}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. UserLayer", "03. UserLayer", "{546E6131-F4BB-4952-B828-26168DAC4F87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Presentation", "04. Presentation", "{546E6131-F4BB-4952-B828-26168DAC4F87}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Crosscutting", "04. Crosscutting", "{72090502-6F44-46F1-A5A6-0EFA5C1F387A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Crosscutting", "03. Crosscutting", "{72090502-6F44-46F1-A5A6-0EFA5C1F387A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Crosscutting.Commons", "Schibsted.Crosscutting.Commons\Schibsted.Crosscutting.Commons.csproj", "{49AAB0BA-2E64-4759-ABFE-F72A03F29168}"
 EndProject
