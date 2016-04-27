@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Schibsted.DataAccess.Core")]
+[assembly: AssemblyTitle("Schibsted.Crosscutting.Security")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Schibsted.DataAccess.Core")]
+[assembly: AssemblyProduct("Schibsted.Crosscutting.Security")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fddf9b4e-1331-4e4e-a7ba-fe3efbcd20cf")]
+[assembly: Guid("81ac05c6-c0dd-422c-a860-1e8594b61ba7")]
 
 // Version information for an assembly consists of the following four values:
 //
