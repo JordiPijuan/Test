@@ -3,3 +3,10 @@
 ################################################################################
 
 /Schibsted.DataAccess.Repositories/obj/Debug
+/Schibsted.DataAccess.Core/obj/Debug
+/Schibsted.DataAccess.Contracts/obj/Debug
+/Schibsted.Crosscutting.Ioc/obj/Debug
+/Schibsted.Crosscutting.Entities/obj/Debug
+/Schibsted.Crosscutting.Commons/obj/Debug
+/Schibsted.Business.Core/obj/Debug
+/Schibsted.Business.Contracts/obj/Debug
