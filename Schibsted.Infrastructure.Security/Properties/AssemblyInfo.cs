@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Schibsted.DataAccess.Repositories")]
+[assembly: AssemblyTitle("Schibsted.Infrastructure.Security")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Schibsted.DataAccess.Repositories")]
+[assembly: AssemblyProduct("Schibsted.Infrastructure.Security")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("880b6dd5-be45-4583-ae78-659c2fdd228f")]
+[assembly: Guid("81ac05c6-c0dd-422c-a860-1e8594b61ba7")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,8 +1,7 @@
 ﻿namespace Schibsted.Business.Contracts
 {
     using System.Collections.Generic;
-    using Schibsted.Crosscutting.Entities;
-    using Schibsted.DataAccess.Repositories;
+    using Crosscutting.Entities;
 
     public interface IRepositoryService
     {
@@ -10,6 +9,8 @@
         void Initialize(string filepath);
         List<User> GetAllUsers();
         User GetByName(string name);
+        bool Authenticate(string username, string password);
+
     }
 
 }

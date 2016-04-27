@@ -1,5 +1,7 @@
 ﻿using System.Web;
+using System.Web.Http.Filters;
 using System.Web.Mvc;
+using Schibsted.Presentation.Mvc.UI.Filters;
 
 namespace Schibsted.Presentation.Mvc.UI
 {
@@ -9,5 +11,6 @@ namespace Schibsted.Presentation.Mvc.UI
         {
             filters.Add(new HandleErrorAttribute());
         }
+
     }
 }
