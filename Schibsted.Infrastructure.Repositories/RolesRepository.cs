@@ -2,15 +2,16 @@
 {
     using System;
     using System.Collections.Generic;
-    using Entities;
+    using Crosscutting.Entities;
+    using Contracts;
 
     public class RolesRepository : IRolesRepository<Role>
     {
-        private string _File;
+        private string _file;
         public string File
         {
-            get { return _File; }
-            set { _File = value; }
+            get { return _file; }
+            set { _file = value; }
         }
 
         public void Initialize(string filepath)

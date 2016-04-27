@@ -1,8 +1,8 @@
 ﻿namespace Schibsted.Infrastructure.Security
 {
     using System;
-    using Schibsted.Infrastructure.Security.Contracts;
-    using Schibsted.Infrastructure.Repositories;
+    using Contracts;
+    using Repositories;
 
     public class SchibstedMembershipProvider : IAuthenticate, IAuthorizate, IDisposable
     {

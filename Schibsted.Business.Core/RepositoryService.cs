@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Schibsted.Business.Contracts;
-using Schibsted.Infrastructure.Entities;
+using Schibsted.Crosscutting.Entities;
 using Schibsted.Infrastructure.Contracts;
 using Schibsted.Infrastructure.Repositories;
 

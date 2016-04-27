@@ -3,7 +3,7 @@ namespace Schibsted.Presentation.Mvc.UI
     using System.Web.Http.Controllers;
     using System.Web.Mvc;
     using Microsoft.Practices.Unity;
-    using Schibsted.Infrastructure.Ioc.Builders;
+    using Schibsted.Crosscutting.Ioc.Builders;
     using Schibsted.Presentation.Mvc.UI.Controllers;
     using Schibsted.Presentation.Mvc.UI.Controllers.WebAPI;
 

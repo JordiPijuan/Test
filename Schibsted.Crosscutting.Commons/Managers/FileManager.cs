@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Schibsted.Infrastructure.Commons.Managers
+namespace Schibsted.Crosscutting.Commons.Managers
 {
     public class FileManager
     {

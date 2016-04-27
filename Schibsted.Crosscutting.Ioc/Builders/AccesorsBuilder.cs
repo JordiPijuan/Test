@@ -1,7 +1,7 @@
-﻿namespace Schibsted.Infrastructure.Ioc.Builders
+﻿namespace Schibsted.Crosscutting.Ioc.Builders
 {
     using Microsoft.Practices.Unity;
-    using Schibsted.Infrastructure.Entities;
+    using Schibsted.Crosscutting.Entities;
     using Schibsted.Infrastructure.Contracts;
     using Schibsted.Infrastructure.Repositories;
 

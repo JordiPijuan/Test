@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Infrastructure.Commons
+﻿namespace Schibsted.Crosscutting.Commons
 {
     using System.Web.Script.Serialization;
 

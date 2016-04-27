@@ -272,7 +272,7 @@
     </ProjectReference>
     <ProjectReference Include="..\Schibsted.Crosscutting.Security\Schibsted.Infrastructure.Security.csproj">
       <Project>{81ac05c6-c0dd-422c-a860-1e8594b61ba7}</Project>
-      <Name>Schibsted.Crosscutting.Security</Name>
+      <Name>Schibsted.Infrastructure.Security</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

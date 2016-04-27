@@ -1,4 +1,4 @@
-﻿namespace Schibsted.Infrastructure.Ioc.Builders
+﻿namespace Schibsted.Crosscutting.Ioc.Builders
 {
     using Microsoft.Practices.Unity;
     using Schibsted.Business.Contracts;

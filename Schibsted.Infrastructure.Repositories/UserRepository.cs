@@ -1,11 +1,13 @@
-﻿namespace Schibsted.Infrastructure.Repositories
+﻿
+namespace Schibsted.Infrastructure.Repositories
 {
     using System.Collections.Generic;
     using System.Linq;
-    using Commons;
-    using Commons.Managers;
-    using Entities;
+    using Crosscutting.Commons;
+    using Crosscutting.Commons.Managers;
+    using Crosscutting.Entities;
     using Contracts;
+
     public class UserRepository : IUserRepository<User>
     {
 

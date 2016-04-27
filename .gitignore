@@ -26,3 +26,7 @@
 /Schibsted.Presentation.Mvc.UI/obj/Debug
 *.user
 /packages
+/Schibsted.Infrastructure.Contracts/obj/Debug
+/Schibsted.Infrastructure.Repositories/obj/Debug
+/Schibsted.Infrastructure.Security/bin/Debug
+/Schibsted.Infrastructure.Security/obj/Debug

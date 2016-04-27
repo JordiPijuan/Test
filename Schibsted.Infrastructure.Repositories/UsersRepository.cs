@@ -1,4 +1,8 @@
-﻿namespace Schibsted.Infrastructure.Repositories
+﻿using Schibsted.Crosscutting.Commons;
+using Schibsted.Crosscutting.Commons.Managers;
+using Schibsted.Crosscutting.Entities;
+
+namespace Schibsted.Infrastructure.Repositories
 {
     using System;
     using System.Collections.Generic;

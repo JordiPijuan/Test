@@ -48,6 +48,14 @@
       <Project>{c48392a5-4ba0-4159-8beb-1fd5399285ae}</Project>
       <Name>Schibsted.Crosscutting.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Schibsted.Infrastructure.Contracts\Schibsted.Infrastructure.Contracts.csproj">
+      <Project>{f8f7267a-d268-4acb-9890-d0bd4f53e227}</Project>
+      <Name>Schibsted.Infrastructure.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Schibsted.Infrastructure.Repositories\Schibsted.Infrastructure.Repositories.csproj">
+      <Project>{880b6dd5-be45-4583-ae78-659c2fdd228f}</Project>
+      <Name>Schibsted.Infrastructure.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

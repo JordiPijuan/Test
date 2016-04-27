@@ -1,8 +1,7 @@
 ﻿namespace Schibsted.Business.Contracts
 {
     using System.Collections.Generic;
-    using Schibsted.Infrastructure.Entities;
-    using Schibsted.Infrastructure.Repositories;
+    using Crosscutting.Entities;
 
     public interface IRepositoryService
     {
