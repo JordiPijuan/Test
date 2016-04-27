@@ -270,10 +270,6 @@
       <Project>{93d41393-01ec-4c5b-8929-cd786e7d6876}</Project>
       <Name>Schibsted.Crosscutting.Ioc</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Schibsted.Crosscutting.Security\Schibsted.Infrastructure.Security.csproj">
-      <Project>{81ac05c6-c0dd-422c-a860-1e8594b61ba7}</Project>
-      <Name>Schibsted.Infrastructure.Security</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Localization\RouteFiles.resx">

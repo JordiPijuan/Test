@@ -62,11 +62,11 @@
       <Project>{93d41393-01ec-4c5b-8929-cd786e7d6876}</Project>
       <Name>Schibsted.Crosscutting.Ioc</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Schibsted.DataAccess.Contracts\Schibsted.Infrastructure.Contracts.csproj">
+    <ProjectReference Include="..\Schibsted.Infrastructure.Contracts\Schibsted.Infrastructure.Contracts.csproj">
       <Project>{f8f7267a-d268-4acb-9890-d0bd4f53e227}</Project>
       <Name>Schibsted.Infrastructure.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Schibsted.DataAccess.Repositories\Schibsted.Infrastructure.Repositories.csproj">
+    <ProjectReference Include="..\Schibsted.Infrastructure.Repositories\Schibsted.Infrastructure.Repositories.csproj">
       <Project>{880b6dd5-be45-4583-ae78-659c2fdd228f}</Project>
       <Name>Schibsted.Infrastructure.Repositories</Name>
     </ProjectReference>

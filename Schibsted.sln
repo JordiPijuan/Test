@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Presentation.Mvc.UI", "Schibsted.Presentation.Mvc.UI\Schibsted.Presentation.Mvc.UI.csproj", "{456D2E90-66D6-44FA-AF03-2024EC6BD720}"
 EndProject
@@ -23,11 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Business.Contract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Business.Core", "Schibsted.Business.Core\Schibsted.Business.Core.csproj", "{D6DD9B6E-78E3-455D-9E28-10B3BA410505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Infrastructure.Security", "Schibsted.Crosscutting.Security\Schibsted.Infrastructure.Security.csproj", "{81AC05C6-C0DD-422C-A860-1E8594B61BA7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Infrastructure.Contracts", "Schibsted.Infrastructure.Contracts\Schibsted.Infrastructure.Contracts.csproj", "{F8F7267A-D268-4ACB-9890-D0BD4F53E227}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Infrastructure.Repositories", "Schibsted.Infrastructure.Repositories\Schibsted.Infrastructure.Repositories.csproj", "{880B6DD5-BE45-4583-AE78-659C2FDD228F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schibsted.Infrastructure.Security", "Schibsted.Infrastructure.Security\Schibsted.Infrastructure.Security.csproj", "{81AC05C6-C0DD-422C-A860-1E8594B61BA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,6 @@ Global
 		{D6DD9B6E-78E3-455D-9E28-10B3BA410505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DD9B6E-78E3-455D-9E28-10B3BA410505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6DD9B6E-78E3-455D-9E28-10B3BA410505}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8F7267A-D268-4ACB-9890-D0BD4F53E227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8F7267A-D268-4ACB-9890-D0BD4F53E227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F7267A-D268-4ACB-9890-D0BD4F53E227}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,6 +67,10 @@ Global
 		{880B6DD5-BE45-4583-AE78-659C2FDD228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880B6DD5-BE45-4583-AE78-659C2FDD228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880B6DD5-BE45-4583-AE78-659C2FDD228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AC05C6-C0DD-422C-A860-1E8594B61BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,8 +82,8 @@ Global
 		{93D41393-01EC-4C5B-8929-CD786E7D6876} = {72090502-6F44-46F1-A5A6-0EFA5C1F387A}
 		{6B20AB5B-E0B2-4415-AE18-36A8F5CBB4D7} = {B3E10D7B-2DE3-4F5C-875B-46619411A502}
 		{D6DD9B6E-78E3-455D-9E28-10B3BA410505} = {B3E10D7B-2DE3-4F5C-875B-46619411A502}
-		{81AC05C6-C0DD-422C-A860-1E8594B61BA7} = {7231229E-9002-4E04-AD27-2685D651C662}
 		{F8F7267A-D268-4ACB-9890-D0BD4F53E227} = {7231229E-9002-4E04-AD27-2685D651C662}
 		{880B6DD5-BE45-4583-AE78-659C2FDD228F} = {7231229E-9002-4E04-AD27-2685D651C662}
+		{81AC05C6-C0DD-422C-A860-1E8594B61BA7} = {7231229E-9002-4E04-AD27-2685D651C662}
 	EndGlobalSection
 EndGlobal
