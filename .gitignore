@@ -3,3 +3,22 @@
 ################################################################################
 
 /packages
+/Schibsted.Business.Contracts/bin/Debug
+/Schibsted.Business.Contracts/obj/Debug
+/Schibsted.Business.Core/bin/Debug
+/Schibsted.Business.Core/obj/Debug
+/Schibsted.Crosscutting.Commons/bin/Debug
+/Schibsted.Crosscutting.Commons/obj/Debug
+/Schibsted.Crosscutting.Entities
+/Schibsted.Crosscutting.Ioc/bin/Debug
+/Schibsted.Crosscutting.Ioc/obj/Debug
+/Schibsted.DataAccess.Contracts/obj/Debug
+/Schibsted.DataAccess.Repositories/obj/Debug
+/Schibsted.Infrastructure.Contracts/bin/Debug
+/Schibsted.Infrastructure.Contracts/obj/Debug
+/Schibsted.Infrastructure.Repositories/bin/Debug
+/Schibsted.Infrastructure.Repositories/obj/Debug
+/Schibsted.Infrastructure.Security/bin/Debug
+/Schibsted.Infrastructure.Security/obj/Debug
+/Schibsted.Presentation.Mvc.UI/bin
+/Schibsted.Presentation.Mvc.UI/obj/Debug
