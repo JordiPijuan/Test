@@ -45,7 +45,7 @@ namespace Schibsted.Presentation.Mvc.UI.Filters
                 var userId = provider.GetByName(username);
                 if (userId != null)
                 {
-                    var basicAuthenticationIdentity = Thread.CurrentPrincipal.Identity as BasicAuthenticationIdentity;
+                    var basicAuthenticationIdentity = Thread.CurrentPrincipal.Identity as SchibstedIdentity;
                     if (basicAuthenticationIdentity != null)
                         basicAuthenticationIdentity.UserName = userId.Name;
                     return true;

@@ -78,7 +78,7 @@
         /// Checks for autrhorization header in the request and parses it, creates user credentials and returns as BasicAuthenticationIdentity
         /// </summary>
         /// <param name="filterContext"></param>
-        protected virtual BasicAuthenticationIdentity FetchAuthHeader(HttpActionContext filterContext)
+        protected virtual SchibstedIdentity FetchAuthHeader(HttpActionContext filterContext)
         {
             string authHeaderValue = null;
             var authRequest = filterContext.Request.Headers.Authorization;
@@ -92,7 +92,7 @@
             authHeaderValue = Encoding.Default.GetString(Convert.FromBase64String(authHeaderValue));
             var credentials = authHeaderValue.Split(':');
 
-            return credentials.Length < 2 ? null : new BasicAuthenticationIdentity(credentials[0], credentials[1]);
+            return credentials.Length < 2 ? null : new SchibstedIdentity(credentials[0], credentials[1]);
         }
 
 
